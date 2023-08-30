@@ -2,10 +2,10 @@
 toc: true
 comments: true
 layout: post
-title: Tools Setup
+title: Week 0 Journal - 第一个星期日志
 description: Become one with your tools.  They could be more important than code, code, code.
 type: plans
-courses: { csse: {week: 0}, csp: {week: 0, categories: [4.A]}, csa: {week: 0} }
+courses: { csse: {week: 0} }
 categories: [C1.4]
 ---
 
