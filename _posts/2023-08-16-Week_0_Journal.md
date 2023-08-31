@@ -5,21 +5,11 @@ layout: post
 title: Week 0 Journal - 第零个星期日志
 description: What I did during the first week of CompSci, and how I did it. <br> 我在计算机学课的第一星期做了什么，以及我是如何做到的
 type: plans
-courses: { csse: {week: 0} }
+courses: { CompSci: {week: 0} }
 categories: [C1.4]
 ---
 
-### PBL Sprint 0 / Week 0
-Learning outcome.  Installing Tools and showing usage of VSCode.
-- Wednesday - Pick pair share partner, Pick crossover pair, Establish team of four.  Spend some time talking and getting to know each other, particularly with Computer Science experience and goals.  You should be matched with someone that has similar experience.
-- Thursday - Setup Tools on laptop and/or Cloud Computer.
-- Friday - Review and test as a Pair. Spend 25 minutes at one keyboard then switch for next 25 minutes.
+### Summary of the Week
+Mr. Mortensen summarizes what we'll be doing in his class, how he'll be teaching the class, where to go in order to learn how to do stuff, and we read how to set up our computers and Visual Studio Code in order to begin coding
 
-### Hack Prepartation
-> Look for 'Hacks' to know what to do next.  Try to be done and learn your machine befand tools before Monday.
-- A laptop, that you bring to class every day with ability to operate Development Tools on it or within the cloud.
-- GitHub Account, VSCode will be used to push/pull changes. GitHub is where we store and share code in the cloud, think of Google Docs but for Code.
-- GitHub Pages will be used to host your personal blog site containing notes, and hacks.  Building pages will teach Markdown, HTML, CSS, JavaScript and more.
-- Jupyter Notebooks will be used in conjunction with GitHub Pages to build running Code in your blog.
-- Slack Account, install the App on Laptop and/or phone, get used to reading announcements. Slack is the tool that we will use for messaging, we have been averaging 1000s of essages each year.
-- VSCode is the code editor we will be using in this class.  VSCode is more than and editor, this type of tool is often called an Interactive Development Environment (IDE). 
+## Wednesday
