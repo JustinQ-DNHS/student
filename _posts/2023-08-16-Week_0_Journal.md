@@ -2,8 +2,8 @@
 toc: true
 comments: true
 layout: post
-title: Week 0 Journal - 第一个星期日志
-description: Become one with your tools.  They could be more important than code, code, code.
+title: Week 0 Journal - 第零个星期日志
+description: What I did during the first week of CompSci, and how I did it. <br> 我在计算机学课的第一星期做了什么，以及我是如何做到的
 type: plans
 courses: { csse: {week: 0} }
 categories: [C1.4]
