@@ -6,7 +6,6 @@ title: Week 0 Review - 第零个周审查
 description: What I did during the first week of CompSci, and how I did it. <br> 我在计算机学课的第一周做了什么，以及我是如何做到的
 type: plans
 courses: { CompSci: {week: 0} }
-categories: [C1.4]
 ---
 
 ## Summary of the Week
