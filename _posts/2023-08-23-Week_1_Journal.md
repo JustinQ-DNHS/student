@@ -5,5 +5,5 @@ layout: post
 title: Base
 description: Base
 type: plans
-courses: { CompSci: {week: 0} }
+courses: { CompSci: {week: 1} }
 ---
