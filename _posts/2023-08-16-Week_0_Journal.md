@@ -8,7 +8,7 @@ type: plans
 courses: { CompSci: {week: 0} }
 ---
 
-## Summary of the Week
+## Summary of the Week 0
 Mr. Mortensen summarizes what we'll be doing in his class, how he'll be teaching the class, where to go in order to learn how to do stuff, and we read how to set up our computers and Visual Studio Code in order to begin coding
 
 ### Wednesday
