@@ -18,3 +18,4 @@ Class is explained by Mr. Mortensen, explaining how this'll be a helpful class t
 Class was told to start reading the three pages that would explain how to install the tools everyone will need for this class. (i.e. VSCode, Docker, WSL, [Windows Only] Homebrew, [Mac] etc.) Everyone was also told to partner with someone and work with them to improve their own code. <br> - I began downloading VSCode, Docker, Slack, and Homebrew. I also partnered with my first partner, Leo, and became acquainted with Daniel and Xavier, who'll both soon help me with coding.
 
 ### Friday
+Mr. Mortensen explained how to install everything and how to set everything up, sadly at the itme I had missed one of the documents you were required to read to understand everything and therefore fell behind the rest of the class and could not install the necessarry items to start programming.
