@@ -82,15 +82,22 @@ courses: { CompSci: { week: 3 } }
             <td>安全</td>
             <td>an'quan</td>
             <td>Safe; Protected</td>
-            <td>我想住在校内是安全</td>
+            <td>我认为住在校内是安全</td>
             <td>I think living on-campus is safe</td>
         </tr>
-        </tr>
+        <tr>
             <td>是</td>
             <td>shi</td>
             <td>Is;Am;Are</td>
             <td>那是苹果</td>
-            <td>That is a apple</td>
+            <td>That is an apple</td>
+        </tr>
+        <tr>
+            <td>认为</td>
+            <td>ren'wei</td>
+            <td>Think</td>
+            <td>我认为他笨</td>
+            <td>I think he is dumb</td>
         </tr>
     </tbody>
 </table>
