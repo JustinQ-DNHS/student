@@ -99,6 +99,13 @@ courses: { CompSci: { week: 3 } }
             <td>我认为他笨</td>
             <td>I think he is dumb</td>
         </tr>
+        <tr>
+            <td>要</td>
+            <td>yao</td>
+            <td>Want (Imples you will be doing it)</td>
+            <td>我要吃苹果</td>
+            <td>I want to eat an apple</td>
+        </tr>
     </tbody>
 </table>
 
