@@ -337,7 +337,7 @@ type: hacks
         /////////////////////////////////////////////////////////////
         //Color for Snake
         let activeDot = function(x, y){
-            ctx.fillStyle = "##0d4a09";
+            ctx.fillStyle = "#036b08";
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         }
         //Color for Apple
