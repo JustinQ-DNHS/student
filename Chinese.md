@@ -1,6 +1,6 @@
 ---
 layout: schedule
 title: Chinese Class
-units: "1,2,3,4,5,6"
+units: "1"
 course: Chinese
 ---
