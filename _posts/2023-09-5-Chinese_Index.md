@@ -5,7 +5,7 @@ layout: post
 title: Chinese Index/Dictionary
 description: A Dictionary of all the Chinese I know
 type: hacks
-courses: { CompSci: { week: 3 }, Chinese: { week: 1 } }
+courses: { CompSci: { week: 3 }, Chinese: { week: 0 } }
 ---
 
 <head>
