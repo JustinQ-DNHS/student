@@ -7,7 +7,6 @@ description: A Dictionary of all the Chinese I know
 type: hacks
 courses: { CompSci: { week: 3 }, Chinese: { week: 0 } }
 ---
-
 <head>
     <!-- load jQuery and DataTables output style and scripts -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
