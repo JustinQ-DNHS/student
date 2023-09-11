@@ -81,7 +81,7 @@ courses: { Chinese: { week: 3 } }
     <tr>
         <td>10</td>
         <td>这时候，石猴从猴群里跳出来。高声叫道：“我去！我去！”</td>
-        <td>Placeholder<td>
+        <td>Placeholder</td>
     </tr>
     <tr>
         <td>11</td>
