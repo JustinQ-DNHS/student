@@ -16,7 +16,7 @@ courses: { CompSci: { week: 3 }, Chinese: { week: 0 } }
 </head>
 <style>
     table, td, th, tr {
-        border: 1px solid #6e6e6e;
+        border: 1px solid white;
     }
     table.center {
         margin-left:auto;
