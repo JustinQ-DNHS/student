@@ -4,8 +4,8 @@ title: Student Blog
 ---
 <style>
 table.center {
-  margin-left: auto; 
-  margin-right: auto;
+  margin-left: 25%; 
+  margin-right: 25%;
 }
 </style>
 
