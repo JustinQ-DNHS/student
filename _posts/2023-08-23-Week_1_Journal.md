@@ -9,16 +9,16 @@ courses: { CompSci: {week: 1} }
 ---
 
 ## Summary of Week 1
-Placeholder
+Spent most of the time trying to figure out how to actually use VSCode, lost my original parter and gained a new one named Timur
 
 ### Monday
-Placeholder
+Spent most of the time trying to figure out how to use VSCode and couldn't
 
 ### Tuesday
-Placeholder
+Spent most of the time trying to figure out the issue eventually realizing the issue is I didn't name the teacher repository "teacher" and fix that. Allowing me to begin programming.
 
 ### Wednesday
-Placeholder
+Messed around and added a donut to the home page
 
 ### Thursday
 Placeholder
