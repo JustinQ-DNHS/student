@@ -28,8 +28,8 @@ Blogging in GitHub pages is a way to learn and code at the same time.
     <tr style="text-align:left; height 100px;">
         <td>
             <span style="vertical-align:bottom;">&#9745;</span> Finish review of Friday for Week 0 Journal
-            <br><span style="vertical-align:bottom;">&#9744;</span> Start and finish Week 1 Journal
-            <br><span style="vertical-align:bottom;">&#9744;</span> Configure Snake settings
+            <br><span style="vertical-align:bottom;">&#9745;</span> Start and finish Week 1 Journal
+            <br><span style="vertical-align:bottom;">&#9745;</span> Configure Snake settings
             <br><span style="vertical-align:bottom;">&#9744;</span> Write how to install everything on Mac for hacks
         </td>
     </tr>
