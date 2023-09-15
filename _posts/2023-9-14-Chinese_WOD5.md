@@ -108,5 +108,88 @@ courses: { Chinese: { week: 4 } }
         <td>chǎo</td>
         <td>Quarrel; Loud</td>
     </tr>
+    <tr>
+        <td>不怎么样</td>
+        <td>bùzěnmeỳang</td>
+        <td>Not so good</td>
+    </tr>
+    <tr>
+        <td>真</td>
+        <td>zhēn</td>
+        <td>Real</td>
+    </tr>
+    <tr>
+        <td>真的</td>
+        <td>zhēnde</td>
+        <td>Really(!?)</td>
+    </tr>
+    <tr>
+        <td>台</td>
+        <td>tái</td>
+        <td>UNKNOWN PLEASE CHECK</td>
+    </tr>
+    <tr><td></td></tr>
+    <tr>
+        <td>得很</td>
+        <td>déhěn</td>
+        <td>UNKNOWN PLEASE CHECK</td>
+    </tr>
+    <tr><td></td></tr>
+    <tr>
+        <td>恐</td>
+        <td>kǒng</td>
+        <td>Fear</td>
+    </tr>
+    <tr>
+        <td>恐怕</td>
+        <td>kǒngpà</td>
+        <td>I'm afraid (i.e. "I'm afraid I can't go")</td>
+    </tr>
+    <tr>
+        <td>恐龙</td>
+        <td>kǒnglóng</td>
+        <td>Dinosaur</td>
+    </tr>
+    <tr>
+        <td>恐怖</td>
+        <td>kǒngbù</td>
+        <td>Horror (Genre)</td>
+    </tr>
+    <tr>
+        <td>恐怖电影</td>
+        <td>kǒngbùdiànyǐng</td>
+        <td>Horror Movie</td>
+    </tr>
+    <tr>
+        <td>恐惧</td>
+        <td>kǒngjù</td>
+        <td>Fear</td>
+    </tr>
+    <tr><td></td></tr>
+    <tr>
+        <td>怕</td>
+        <td>pà</td>
+        <td>Afriad; Scared of</td>
+    </tr>
+    <tr>
+        <td>怕事</td>
+        <td>pàshì</td>
+        <td>Afraid of trouble (DOUBLE CHECK)</td>
+    </tr>
+    <tr>
+        <td>怕吵</td>
+        <td>pàchǎo</td>
+        <td>Afraid of noise (DOUBLE CHECK)</td>
+    </tr>
+    <tr>
+        <td>可怕</td>
+        <td>kěpà</td>
+        <td>Horrible</td>
+    </tr>
+    <tr>
+        <td>“天不怕，地不怕，就怕…”</td>
+        <td>"tiānbùpà,dìbùpà,jiùpà..."</td>
+        <td>"Not afraid of the heavens or Earth, I only fear..."</td>
+    </tr>
     </tbody>
 </table>
