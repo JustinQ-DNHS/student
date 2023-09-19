@@ -81,5 +81,15 @@ courses: { Chinese: { week: 5 } }
         <td>liàng</td>
         <td>Vehicles(?)</td>
     </tr>
+    <tr>
+        <td>趟</td>
+        <td>tàng</td>
+        <td>Trips</td>
+    </tr>
+    <tr>
+        <td>场</td>
+        <td>chǎng</td>
+        <td>Scene</td>
+    </tr>
     </tbody>
 </table>
