@@ -4,14 +4,20 @@ comments: false
 layout: post
 title: Chinese WOD6 Review
 description: A review of the essential vocab and grammar in week 6 of chinese
-type: plans
+type: hacks
 courses: { Chinese: { week: 5 } }
 ---
 <style>
-    
+    tr.split {
+        border-top: solid 4px #e9ebec;
+    }
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
 </style>
 
-<table>
+<table class="center">
     <caption>Essential Measure Words</caption>
     <thead>
     <tr>
@@ -21,7 +27,7 @@ courses: { Chinese: { week: 5 } }
     </tr>
     </thead>
     <tbody>
-    <tr>
+    <tr class="split">
         <td>本</td>
         <td>běn</td>
         <td>Books; Magazines; (Literature)</td>
