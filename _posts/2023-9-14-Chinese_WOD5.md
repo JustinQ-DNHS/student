@@ -12,6 +12,9 @@ courses: { Chinese: { week: 4 } }
         margin-left: auto;
         margin-right: auto;
     }
+    tr.split {
+        border-top: solid 4px #e9eebc;
+    }
 </style>
 
 <table class="center">
@@ -188,7 +191,7 @@ courses: { Chinese: { week: 4 } }
     </tr>
     <tr>
         <td>“天不怕，地不怕，就怕…”</td>
-        <td>"tiānbùpà,dìbùpà,jiùpà..."</td>
+        <td>"tiānbúpà,dìbúpà,jiùpà..."</td>
         <td>"Not afraid of the heavens or Earth, I only fear..."</td>
     </tr>
     <tr>
