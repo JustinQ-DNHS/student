@@ -9,8 +9,8 @@ courses: { Chinese: { week: 4 } }
 ---
 <style>
     table.center {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: auto;
+        margin-right: auto;
     }
 </style>
 
@@ -54,7 +54,7 @@ courses: { Chinese: { week: 4 } }
     <tr>
         <td>旧</td>
         <td>jiù</td>
-        <td>Old; Used</td>
+        <td>Old (Used when describing object); Used</td>
     </tr>
     <tr>
         <td>旧车</td>
@@ -126,13 +126,13 @@ courses: { Chinese: { week: 4 } }
     <tr>
         <td>台</td>
         <td>tái</td>
-        <td>UNKNOWN PLEASE CHECK</td>
+        <td>Platform; Measure word for machines</td>
     </tr>
     <tr><td></td></tr>
     <tr>
         <td>得很</td>
         <td>déhěn</td>
-        <td>UNKNOWN PLEASE CHECK</td>
+        <td>Very (To greater extent than just 很)</td>
     </tr>
     <tr><td></td></tr>
     <tr>
@@ -190,6 +190,11 @@ courses: { Chinese: { week: 4 } }
         <td>“天不怕，地不怕，就怕…”</td>
         <td>"tiānbùpà,dìbùpà,jiùpà..."</td>
         <td>"Not afraid of the heavens or Earth, I only fear..."</td>
+    </tr>
+    <tr>
+        <td>当然想</td>
+        <td>dāngránxiǎng</td>
+        <td>Of course I want to (DOUBLE CHECK)</td>
     </tr>
     </tbody>
 </table>
