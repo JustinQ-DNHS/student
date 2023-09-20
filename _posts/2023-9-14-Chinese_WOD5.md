@@ -187,7 +187,7 @@ courses: { Chinese: { week: 4 } }
     <tr>
         <td>可怕</td>
         <td>kěpà</td>
-        <td>Horrible</td>
+        <td>Horrible; Frightening</td>
     </tr>
     <tr>
         <td>“天不怕，地不怕，就怕…”</td>
