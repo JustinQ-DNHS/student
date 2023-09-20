@@ -1,9 +1,9 @@
 ---
+toc: false
+comments: false
+layout: post
 title: JS Calculator
-comments: true
-toc: true
-layout: default
-description: modified JS calculator
+description: Calculator by Mr. Mortensen, modified by Xavier and Daniel, and then further editted by myself.
 type: tangibles
 courses: { CompSci: {week: 4}}
 ---
