@@ -62,7 +62,7 @@ Hack 3: Implement 1 number operation (ie SQRT)
       <div class="calculator-operation">/</div>
       <!--row 5-->
       <div class="calculator-operation">√</div>
-      <div class="calculator-operation">a<sup>2</sup></div>
+      <div class="calculator-operation">^</div>
       <div class="calculator-operation">π</div>
       <div class="calculator-number">.</div>
   </div>
