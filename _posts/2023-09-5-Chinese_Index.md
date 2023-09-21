@@ -105,6 +105,41 @@ courses: { CompSci: { week: 3 }, Chinese: { week: 0 } }
             <td>我要吃苹果</td>
             <td>I want to eat an apple</td>
         </tr>
+        <tr>
+            <td>简介</td>
+            <td>jian'jie</td>
+            <td>Introduction</td>
+            <td>大学宿舍简介</td>
+            <td>College Dorm Introductions</td>
+        </tr>
+        <tr>
+            <td>作社</td>
+            <td>zuo'zhe</td>
+            <td>Author; By</td>
+            <td>作者: Justin Quach</td>
+            <td>By: Justin Quach; Author: Justin Quach</td>
+        </tr>
+        <tr>
+            <td>成本</td>
+            <td>cheng'ben</td>
+            <td>Costs</td>
+            <td>这本书成本不高</td>
+            <td>This book's cost is not high</td>
+        </tr>
+        <tr>
+            <td>正常</td>
+            <td>zheng'chang</td>
+            <td>Normal</td>
+            <td>那个苹果不正常</td>
+            <td>That apple is not normal</td>
+        </tr>
+        <tr>
+            <td>店铺</td>
+            <td>dian'pu</td>
+            <td>Shop</td>
+            <td>这个店铺没有日用品</td>
+            <td>This store does not have everyday necessities</td>
+        </tr>
     </tbody>
 </table>
 
