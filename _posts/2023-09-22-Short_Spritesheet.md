@@ -41,7 +41,6 @@ courses: { CompSci: { week: 5 } }
         const SPRITE_WIDTH = 112;
         const SPRITE_HEIGHT = 84;
         const SCALE_FACTOR = 6;
-        let frameRate = 30;
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;
         canvas.height = SPRITE_HEIGHT * SCALE_FACTOR;
 
@@ -108,24 +107,33 @@ courses: { CompSci: { week: 5 } }
             }
         });
 
-        function animate() {
+        function animate() { //Creates a function called animate that is run after everything else is done
+            // Creates a variable callled currentFrameRate which will equal the slider.value and make it into a whole number / integer
             const currentFrameRate = parseInt(slider.value, 10);
+            // A timeout that runs a function, timeout creating the delay between each frame. Calculated by 1 second divided by currentFrameRate
             setTimeout(function () {
+                // Clears the canvas by replacing everysingle pixel with a transparent pixel
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
+                // Runs the draw function within the horse class creating the horse
                 horse.draw(ctx);
+                // Runs the update function, moving the frame of the horse over 1
                 horse.update();
+                // Reruns the animate function at the same consistency as the browsers refresh rate
                 requestAnimationFrame(animate);
-            }, 1000 / currentFrameRate); // Use the current frame rate here
+            }, 1000 / currentFrameRate);
         }
-
+        // This is the animate function being run at the start of the page, otherwise it would not start.
         animate();
     });
-
-    var slider = document.getElementById("frameSlide");
+    // Creates a variable called slider that matches the current value of objects with the id of `frameSlide` the only one of which being `<input type="range">` object
+    var slider = document.getElementById("frameSlide"); 
+    // Creates a variable called output that matches current value of the frameRate variable 
     var output = document.getElementById("frameRate");
+    // Sets the inner HTML or content of the output variable to equal the slider's current value
     output.innerHTML = slider.value;
-
+    // Creates a if statement that runs a function whenever the slider is interacted with
     slider.oninput = function() {
-    output.innerHTML = this.value;
+        //Changes the innerHTML of the output to the current value of the slider
+        output.innerHTML = this.value;
     }
 </script>
