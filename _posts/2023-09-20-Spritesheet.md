@@ -7,53 +7,45 @@ description: Horse running for all of eternity
 type: hacks
 courses: { CompSci: { week: 5 } }
 ---
-
 <body>
     <div>
         <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
-            <img id="horseSprite" src="/student/_notebooks/images/horse.png">
+            <img id="horseSprite" src="{{site.baseurl}}/images/horse.png">
         </canvas>
         <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
-            <input type="radio" name="animation" id="idle" checked>
-            <label for="idle">Idle</label><br>
-            <input type="radio" name="animation" id="barking">
-            <label for="barking">Barking</label><br>
-            <input type="radio" name="animation" id="walking">
-            <label for="walking">Walking</label><br>
+            <input type="radio" name="animation" id="running" checked>
+            <label for="running">Running</label><br>
+            <input type="radio" name="animation" id="stamping">
+            <label for="stamping">Stamping</label><br>
         </div>
     </div>
 </body>
+> Horse by REIVAXCORP, usable under Creative Commons Attribution 3.0 license.
 
 <script>
     window.addEventListener('load', function () {
-        const canvas = document.getElementById('spriteContainer');  // sets the canvas as a variable by calling the canvas element from the HTML code, using the id we set
-        const ctx = canvas.getContext('2d'); // the getContext function is a given function within the canvas object. It allows us more functionality with the sprite image.
-
-        // constant variables used for sprite and canvas
-        const SPRITE_WIDTH = 160;
-        const SPRITE_HEIGHT = 144;
-        const SCALE_FACTOR = 2;
-        const FRAME_LIMIT = 48;
-        const FRAME_RATE = 15;
-
-        // sets canvas properties
+        const canvas = document.getElementById('spriteContainer');
+        const ctx = canvas.getContext('2d');
+        const SPRITE_WIDTH = 112;
+        const SPRITE_HEIGHT = 84;
+        const SCALE_FACTOR = 6;
+        const FRAME_LIMIT = 6;
+        const FRAME_RATE = 30;
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;
         canvas.height = SPRITE_HEIGHT * SCALE_FACTOR;
-
-        //more code will be placed here later
         class Horse {
-            constructor(){  // constructor method for outlining data points about the sprite
+            constructor() {
                 this.image = document.getElementById("horseSprite");
                 this.spriteWidth = SPRITE_WIDTH;
                 this.spriteHeight = SPRITE_HEIGHT;
-                this.width = this.spriteWidth;  //takes sprite dimensions and accounts for it in image generation
+                this.width = this.spriteWidth;
                 this.height = this.spriteHeight;
-                this.x = 0;  //starts image generation in coordinate (0,0) px on sprite sheet
+                this.x = 0;
                 this.y = 0;
-                this.scale = 1;  //scale of image
+                this.scale = 6;
                 this.minFrame = 0;
-                this.maxFrame = FRAME_LIMIT;  // how many sprites there are in a row
-                this.frameX = 0;  // sets position of sprite that is being generated. There are the two parameters we will be changing in order to crete the animation. 
+                this.maxFrame = FRAME_LIMIT;
+                this.frameX = 0;
                 this.frameY = 0;
             }
             draw(context) {
@@ -70,44 +62,39 @@ courses: { CompSci: { week: 5 } }
                 );
             }
             update() {
-                // increases the horizontal position within sprite
                 if (this.frameX < this.maxFrame) {
                     this.frameX++;
                 } else {
-                    this.frameX = 0;  // resets the origin point to the beginning of the row after the 24th frame
+                    this.frameX = 0;
                 }
             }
-    }
-    const horse = new Horse();  // This makes the game object, Dog
-
-// Add event listener to the parent container for event delegation
-const controls = document.getElementById('controls');
-controls.addEventListener('click', function (event) {
-    if (event.target.tagName === 'INPUT') {
-        const selectedAnimation = event.target.id;
-        switch (selectedAnimation) {
-            case 'idle':
-                horse.frameY = 0;
-                break;
-            case 'barking':
-                horse.frameY = 1;
-                break;
-            case 'walking':
-                horse.frameY = 2;
-                break;
-            default:
-                break;
         }
-    }
-});
-function animate() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);  // clears canvas from previous run before generating new frame
-    horse.draw(ctx); // draw method from Dog class: generates image
-    horse.update(); // update method from Dog class: moves origin point for the next frame drawn 
-    requestAnimationFrame(animate); // built in function; lets the browser know you want an animation to be displayed; sets the rate of frames per second
+        const horse = new Horse();
+        // Add event listener to the parent container for event delegation
+        const controls = document.getElementById('controls');
+        controls.addEventListener('click', function (event) {
+            if (event.target.tagName === 'INPUT') {
+                const selectedAnimation = event.target.id;
+                switch (selectedAnimation) {
+                    case 'running':
+                        horse.frameY = 0;
+                        break;
+                    case 'stamping':
+                        horse.frameY = 1;
+                        break;
+                    default:
+                        break;
+                }
+            }
+        });
+        function animate() {
+    setTimeout(function () {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        horse.draw(ctx);
+        horse.update();
+        requestAnimationFrame(animate);
+    }, 1000 / FRAME_RATE); // Calculate the delay based on desired frame rate
 }
-
-animate();
+        animate();
     });
-
 </script>
