@@ -17,6 +17,8 @@ courses: { CompSci: { week: 5 } }
             <label for="running">Running</label><br>
             <input type="radio" name="animation" id="stamping">
             <label for="stamping">Stamping</label><br>
+            <input type="radio" name="animation" id="Test">
+            <label for="Test">Test</label>
         </div>
     </div>
 </body>
@@ -42,7 +44,7 @@ courses: { CompSci: { week: 5 } }
                 this.height = this.spriteHeight;
                 this.x = 0;
                 this.y = 0;
-                this.scale = 6;
+                this.scale = SCALE_FACTOR;
                 this.minFrame = 0;
                 this.maxFrame = FRAME_LIMIT;
                 this.frameX = 0;
@@ -78,9 +80,15 @@ courses: { CompSci: { week: 5 } }
                 switch (selectedAnimation) {
                     case 'running':
                         horse.frameY = 0;
+                        horse.maxFrame = FRAME_LIMIT;
                         break;
                     case 'stamping':
                         horse.frameY = 1;
+                        horse.maxFrame = FRAME_LIMIT;
+                        break;
+                    case 'Test':
+                        horse.frameY = 2;
+                        horse.maxFrame = 3;
                         break;
                     default:
                         break;
