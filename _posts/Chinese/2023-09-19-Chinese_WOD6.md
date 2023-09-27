@@ -99,3 +99,5 @@ courses: { Chinese: { week: 5 } }
     </tr>
     </tbody>
 </table>
+
+<a href="{{site.baseurl}}/回家一个月">Another thing To check</a>
