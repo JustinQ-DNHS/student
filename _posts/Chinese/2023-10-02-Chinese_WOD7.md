@@ -220,7 +220,7 @@ courses: { Chinese: { week: 6 } }
 </tbody>
 </table>
 
-## Grammar:
+## Grammar
 
 吵: When used as an adjective means "noisy"
 E.g: 外边很吵，我不能看书 - It is very noisy outside, I can't read my book.
