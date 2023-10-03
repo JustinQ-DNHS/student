@@ -1,6 +1,6 @@
 # Chinese course meta data
 Unit1:
   title: Unit 1 of Chinese 7
-  description: The first unit in the textbook of Chinese 7
+  description: The first unit in the textbook of Chinese 7 - Use /mobilebasic -> cmd + shift + c -> cmd + shift + p -> javascript -> Disable javascript -> Reload
   start: 0
   end: 12
