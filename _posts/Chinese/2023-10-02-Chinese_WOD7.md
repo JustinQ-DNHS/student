@@ -26,7 +26,7 @@ courses: { Chinese: { week: 6 } }
     </tr>
     </thead>
     <tbody>
-    <tr><th>中秋节的字</td></tr>
+    <tr><th>中秋节的字</th></tr>
     <tr>
         <td>中秋节</td>
         <td>zhōngqiūjié</td>
@@ -53,7 +53,7 @@ courses: { Chinese: { week: 6 } }
         <td>Lanterns</td>
     </tr>
     <tr>
-        <td>团聚
+        <td>团聚</td>
         <td>tuánjù</td>
         <td>Reunion</td>
     </tr>
@@ -202,12 +202,7 @@ courses: { Chinese: { week: 6 } }
     </tbody>
 </table>
 
-Grammar:
-吵: When used as an adjective means "noisy"
-E.g: 外边很吵，我不能看书 - It is very noisy outside, I can't read my book.
-
-吵: When used as a verb means "to quarrel"
-E.g: 他们两个人不知道为什么，吵起来了。
+## Paragraph you should be able to read
 
 <table>
 <tbody>
@@ -222,3 +217,11 @@ E.g: 他们两个人不知道为什么，吵起来了。
 </tr>
 </tbody>
 </table>
+
+## Grammar:
+
+吵: When used as an adjective means "noisy"
+E.g: 外边很吵，我不能看书 - It is very noisy outside, I can't read my book.
+
+吵: When used as a verb means "to quarrel"
+E.g: 他们两个人不知道为什么，吵起来了。
