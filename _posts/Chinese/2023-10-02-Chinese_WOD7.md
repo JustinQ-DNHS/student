@@ -1,6 +1,6 @@
 ---
-toc: false
-comments: false
+toc: true
+comments: true
 layout: post
 title: Chinese WOD7 Review
 description: Review for week 7 of Chinese 7, will only feature vocabulary and grammar pertaining to the Week 7 WOD Quiz
@@ -16,6 +16,8 @@ courses: { Chinese: { week: 6 } }
         border-top: solid 4px #e9eebc;
     }
 </style>
+
+## Vocabulary
 
 <table class="center">
     <thead>
