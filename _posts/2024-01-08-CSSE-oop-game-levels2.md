@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: base
 title: Platformer Game v2.0 
 description: Incorporate student lessons. Gameplay includes enemies, platforms, parallax backgrounds, settings with local storage, etc.  This revision introduces Settings, Leaderboard and Multiplayer.
 type: plans
@@ -64,12 +64,12 @@ image: /images/platformer/backgrounds/home.png
 
 <script type="module">
     // Imports to drive game
-    import GameSetup from '{{site.baseurl}}/assets/js/platformer2/GameSetup.js';
-    import GameControl from '{{site.baseurl}}/assets/js/platformer2/GameControl.js';
-    import SettingsControl from '{{site.baseurl}}/assets/js/platformer2/SettingsControl.js';
-    import GameEnv from '{{site.baseurl}}/assets/js/platformer2/GameEnv.js';
-    import Leaderboard from '{{site.baseurl}}/assets/js/platformer2/Leaderboard.js';
-    import Audio from '{{site.baseurl}}/assets/js/platformer2/Audio.js';
+    import GameSetup from '{{site.baseurl}}/assets/js/platformer/GameSetup.js';
+    import GameControl from '{{site.baseurl}}/assets/js/platformer/GameControl.js';
+    import SettingsControl from '{{site.baseurl}}/assets/js/platformer/SettingsControl.js';
+    import GameEnv from '{{site.baseurl}}/assets/js/platformer/GameEnv.js';
+    import Leaderboard from '{{site.baseurl}}/assets/js/platformer/Leaderboard.js';
+    import Audio from '{{site.baseurl}}/assets/js/platformer/Audio.js';
 
     /* 
      * ==========================================
@@ -121,7 +121,6 @@ image: /images/platformer/backgrounds/home.png
         let cutStory = document.getElementById('cut-story');
         let messages = ["Hi! My name is Mario, and I wish...", 
         "I wish I could be just as cool as this guy, Mr. Lopez.", "Help me get to the next level to become him!", "Do you want a speed boost?   [Y/N]","This game was provided by CompSci Inc.","Turn on multiplayer from the settings tab to play with others."];
-        console.log("Message length: " + messages.length);
 
         function showMessage(){
             var x = cutStory;
@@ -129,7 +128,6 @@ image: /images/platformer/backgrounds/home.png
             //only want to last 3 secs
             setTimeout(function(){x.className = x.className.replace('show',' ');}, 2000); //replace show with an empty string
              setTimeout(function(){x.className = x.className.replace(' ','hide');}, 2000);
-            console.log("class name after: "+x.className);
         }
         
         let i = 0;
